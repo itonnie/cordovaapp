@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <link rel="stylesheet" href="css/angular-material.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Onejohi</title>
+    </head>
+    <body ng-app="blankapp" ng-cloak>
+        
+        <md-toolbar class="md-hue-2">
+            <div class="md-toolbar-tools">
+              <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+                <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+              </md-button>
+      
+              <h2 flex md-truncate>onejohi</h2>
+      
+              <md-button class="md-icon-button" aria-label="Favorite">
+                <md-icon md-svg-icon="img/icons/favorite.svg" style="color: greenyellow;"></md-icon>
+              </md-button>
+      
+              <md-button class="md-icon-button" aria-label="More">
+                <md-icon md-svg-icon="img/icons/more_vert.svg"></md-icon>
+              </md-button>
+            </div>
+        </md-toolbar>
+
+        <md-button>Hello There</md-button>
+        <md-button>Material Design in Action</md-button>
+
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/angular-animate.min.js"></script>
+        <script type="text/javascript" src="js/angular-aria.min.js"></script>
+        <script type="text/javascript" src="js/angular-messages.min.js"></script>
+
+        <script type="text/javascript" src="js/angular-material.min.js"></script>
+
+        <script src="js/blankapp.js"></script>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
